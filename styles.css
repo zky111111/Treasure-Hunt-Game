@@ -1,0 +1,64 @@
+body {
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.console {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 20px auto;
+    width: 50%;
+    height: 350px;
+    overflow-y: scroll;
+    background-color: #f4f4f4;
+    position: relative;
+    background-image: url('console-background.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+
+.console p {
+    margin: 0;
+    padding: 5px;
+    text-align: left;
+}
+
+.error {
+    color: red;
+}
+
+#messageBox {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 20px auto;
+    width: 50%;
+    height: 150px;
+    background-color: #f4f4f4;
+    overflow-y: scroll;
+    background-image: url('messageBox-background.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.treasure-hunter-image {
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    transition: all 0.9s ease;
+
+}
+
+.background-image {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    background: url('background.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
